@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.PNG" alt="Logo Alura" class="logo">
+    </header>
+
+    <main> 
+        <section class="bloque1">
+            <textarea class="input-texto" cols="60" rows=20" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <p class="enunciado">&#9888 Solo letras minusculas y sin acentos</p>
+                <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="bloque2">
+            <textarea class="impresor" cols="60" rows="20"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodapie">
+        <p> &copy Copyright - Gabriel Josué Prado López - 2022<address>San Jose - Costa Rica</address></p>
+    </footer>
+    <script src="js/funcion.js"></script>
+</body>
+</html>

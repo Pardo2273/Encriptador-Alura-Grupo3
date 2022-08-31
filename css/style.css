@@ -1,0 +1,135 @@
+/*configuracion global*/
+*{
+    font-family: 'Jaldi', sans-serif;
+}
+/*termina configuracion global=========================================================================================================*/
+
+/*empieza la configuracion del body*/
+body{
+    background-color: #F3F5FC;
+}
+/*termina la configuracion del body=================================================================*/
+
+/*configuracion del header*/
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    margin-top:30px;
+    box-shadow: 0px 2px 17px 4px #0A3871;
+}
+
+/*configuracion del main*/
+main{
+    display: flex;
+}
+
+/*empieza la configuracion del bloque1===============================================================================================*/
+.bloque1{
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.input-texto{
+    width: 450px;
+    height: 500px;
+    border: none;
+    background: #F3F5FC;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.enunciado{
+    font-size: small;
+}
+
+.btnEncriptar{
+    border-radius: 24px;
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    background: #0A3871;
+    color: aliceblue;
+    font-size: large;
+}
+
+
+.btnEncriptar:hover{
+    background: #97C2FA;
+    color: black;
+    border-style: solid;
+
+}
+
+.btnEncriptar:active{
+    background: #377BFA;
+    color: white;
+}
+
+.btnDesencriptar{
+    border-radius: 24px;
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    background: #D8DFE8;
+    color: black;
+    font-size: large;
+    margin-left: 15px;
+}
+
+.btnDesencriptar:hover{
+    background: #84A6D3;
+}
+
+.btnDesencriptar:active{
+    color: white;
+    background: #6094A2;
+}
+
+/*termina la configuracion del bloque1==================================================================*/
+
+/*empieza la configuracion del bloque2 del codigo=======================================================================*/
+.bloque2{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.impresor{
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+    background-image: url(/images/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 65px;
+    background-size: 300px;
+    font-size: medium;
+}
+
+.copiar{
+    margin-left: 170px;
+    width: 150px;
+    height: 50px;
+    border-radius: 24px;
+    border-style: solid;
+}
+
+.copiar:hover{
+    color: white;
+    background: #0A3871;
+}
+
+.copiar:active{
+    background: #6094A2;
+}
+/*termina el bloque2=====================================================================================================*/
+
+/*configuracion del footer*/
+footer{
+    text-align: center;
+}
+
+.rodapie{
+    margin-top: 60px;
+}
+
